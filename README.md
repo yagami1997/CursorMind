@@ -1,7 +1,7 @@
-# CursorMind
+# ✨ CursorMind
 
 <div align="center">
-  <img src="https://via.placeholder.com/200?text=CursorMind" alt="CursorMind Logo" width="200" height="200">
+  <h1>CursorMind</h1>
   <h3>提升您的 Cursor 开发效率与项目管理质量</h3>
   <p><strong>当前版本：Beta 0.1</strong></p>
   
@@ -261,5 +261,6 @@ pacific_tz = pytz.timezone('您的时区')
 
 <div align="center">
   <p><strong>CursorMind</strong> - 提升开发效率，规范项目管理</p>
-  <p><i>最后更新: 2025-03-08</i></p>
+  <p><i>最后更新: 2025-03-08 PST</i></p>
+  <hr>
 </div>

@@ -13,6 +13,7 @@
   ![License](https://img.shields.io/badge/License-MIT-blue.svg)
   ![Version](https://img.shields.io/badge/Version-Beta%200.1-brightgreen.svg)
   ![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)
+  ![Languages](https://img.shields.io/badge/Languages-Bash%20|%20Python-yellow.svg)
 </div>
 
 ## 📖 Project Introduction

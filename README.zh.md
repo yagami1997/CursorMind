@@ -260,7 +260,7 @@ pacific_tz = pytz.timezone('您的时区')
 
 ## 📞 联系方式
 
-- **项目维护者**: Yagami
+- **项目维护者**: <a href="https://github.com/yagami1997" target="_blank">Yagami</a>
 - **项目仓库**: [https://github.com/yagami1997/CursorMind](https://github.com/yagami1997/CursorMind)
 
 ---

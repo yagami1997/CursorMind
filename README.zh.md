@@ -13,6 +13,7 @@
   ![许可证](https://img.shields.io/badge/许可证-MIT-blue.svg)
   ![版本](https://img.shields.io/badge/版本-Beta%200.1-brightgreen.svg)
   ![状态](https://img.shields.io/badge/状态-开发中-orange.svg)
+  ![语言](https://img.shields.io/badge/语言-Bash%20|%20Python-yellow.svg)
 </div>
 
 ## 📖 项目简介

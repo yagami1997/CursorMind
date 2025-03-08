@@ -1,5 +1,10 @@
 # ✨ CursorMind
 
+<p align="right">
+  <a href="README.md">English Version</a> |
+  <a href="README.zh.md">中文版</a>
+</p>
+
 <div align="center">
   <h1>CursorMind</h1>
   <h3>提升您的 Cursor 开发效率与项目管理质量</h3>
@@ -254,7 +259,7 @@ pacific_tz = pytz.timezone('您的时区')
 
 ## 📞 联系方式
 
-- **项目维护者**: [MUMU](mailto:your.email@example.com)
+- **项目维护者**: [Yagami](mailto:your.email@example.com)
 - **项目仓库**: [https://github.com/yourusername/CursorMind](https://github.com/yourusername/CursorMind)
 
 ---

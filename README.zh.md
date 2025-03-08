@@ -260,8 +260,8 @@ pacific_tz = pytz.timezone('您的时区')
 
 ## 📞 联系方式
 
-- **项目维护者**: [Yagami](mailto:your.email@example.com)
-- **项目仓库**: [https://github.com/yourusername/CursorMind](https://github.com/yourusername/CursorMind)
+- **项目维护者**: Yagami
+- **项目仓库**: [https://github.com/yagami1997/CursorMind](https://github.com/yagami1997/CursorMind)
 
 ---
 

@@ -1,0 +1,22 @@
+# Python虚拟环境
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 日报和周报文件
+project_management/actuals/reports/daily/*.md
+project_management/actuals/reports/weekly/*.md
+!project_management/actuals/reports/daily/.gitkeep
+!project_management/actuals/reports/weekly/.gitkeep
+
+# 决策记录
+project_management/actuals/decisions/*.md
+!project_management/actuals/decisions/.gitkeep
+
+# 临时文件
+temp_*.md
+
+# 系统文件
+.DS_Store
+Thumbs.db 

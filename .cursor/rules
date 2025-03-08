@@ -1,0 +1,34 @@
+# Cursor Engineering Rules
+## Project Structure
+- Use project_management/control/MAIN_CONTROL.md as the central control document
+- Create daily reports in project_management/actuals/reports/daily/daily_report_YYYYMMDD.md
+- Generate weekly reports in project_management/actuals/reports/weekly/weekly_report_weekN.md
+- Track overall project progress in PROJECT_PROGRESS.md at the root level
+- Use templates from project_management/templates/ for creating all new documents
+
+## Code Generation
+- Always produce complete, runnable code with proper implementation
+- Avoid placeholders or "to be implemented" sections entirely
+- Maintain an 80% code to 20% explanation ratio
+- Include comprehensive error handling in all code
+- Ensure code is optimized and follows best practices
+
+## Anti-Patterns
+- If analysis exceeds 20% of time without code production: STOP and use [CODE NOW]
+- Prevent feature creep: strictly adhere to defined requirements
+- Break circular thinking immediately with the [RESET] command
+- Eliminate over-explanation: assume readers have expert knowledge
+- Avoid perfectionism that delays delivery of working solutions
+
+## Commands
+- [CODE NOW] - Immediately stop analysis and begin writing code
+- [FOCUS] - Restrict context to the specified scope to prevent distractions
+- [RESET] - Discard current approach and restart with a fresh perspective
+- [DECISION] - Finalize a choice and move forward without second-guessing
+
+## Task Format
+- Define clear, measurable deliverables and concrete success criteria
+- Establish specific time limits for completion of each task
+- Set explicit context boundaries to prevent scope expansion
+- Provide sequential, actionable steps for implementation
+- Include verification methods to confirm successful completion

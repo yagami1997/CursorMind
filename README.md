@@ -260,8 +260,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact Information
 
-- **Project Maintainer**: [Yagami](mailto:your.email@example.com)
-- **Project Repository**: [https://github.com/yourusername/CursorMind](https://github.com/yourusername/CursorMind)
+- **Project Maintainer**: <a href="https://github.com/yagami1997" target="_blank">Yagami</a>
+- **Project Repository**: [https://github.com/yagami1997/CursorMind](https://github.com/yagami1997/CursorMind)
+
 
 ---
 

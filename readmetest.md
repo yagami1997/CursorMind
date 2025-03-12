@@ -110,7 +110,7 @@ cursormind review file your_code.py    # 代码审查
 cursormind analyze dir your_project/    # 项目分析
 ```
 
-### 📚 学习资源概览
+#### 📚 学习资源概览
 - 循序渐进的学习路径
 - 丰富的学习笔记和示例
 - 标准化的项目管理模板
@@ -526,6 +526,7 @@ python3 scripts/generate_timestamp.py week
 - 技术应该是平等的，每个人都应该有机会学习和使用AI编程
 - Cursor不仅是一个IDE，更是一个让编程变得更简单、更智能的工具
 - 通过CursorMind，我们致力于让每个开发者都能享受到AI辅助编程的便利
+- 开源精神是技术进步的基石，欢迎大家fork项目，共同建设AI编程生态
 
 ## 🤝 参与贡献
 

@@ -31,6 +31,8 @@
 - 🎉 Released initial project structure
 - ✅ Implemented basic functional modules
 
+---
+
 ## 📖 Project Introduction
 
 🌟 **CursorMind** is a comprehensive development toolkit for developers 👨‍💻, project managers 👨‍💼, teams 👥, and students 👨‍🎓. It provides not only code quality assurance tools 🛠️ but also includes project management 📊, learning assistance 📚, and best practice guidelines 📝. For middle and high school students learning programming, CursorMind offers an ideal learning platform 🎯, helping them establish correct software engineering mindset 🧠 from the beginning of their programming journey.

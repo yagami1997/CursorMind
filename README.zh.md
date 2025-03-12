@@ -69,6 +69,24 @@ CursorMind 为您提供全方位的开发支持：
 - 安全漏洞自动检测
 - 最佳实践指导
 
+### 2. 项目管理工具 📊
+- 项目进度追踪与管理
+- 团队协作流程规范
+- 自动化报告生成
+- 质量指标监控
+
+### 3. 学习与发展 📚
+- 个性化学习路径规划
+- 丰富的学习资源库
+- 实战项目练习
+- 技术能力评估
+
+### 4. 开发工具集成 🛠️
+- 自动化工作流配置
+- 代码版本控制集成
+- 持续集成/部署支持
+- 开发环境标准化
+
 <details>
 <summary>查看详细功能列表 👉</summary>
 
@@ -84,128 +102,102 @@ CursorMind 为您提供全方位的开发支持：
   - 性能瓶颈定位：通过性能分析找出耗时操作
   - 优化建议：提供具体的性能优化方案
   
-- **安全检查**
-  - SQL 注入检测：识别潜在的数据库安全风险
-  - XSS 漏洞扫描：检查跨站脚本攻击隐患
-  - 敏感信息检测：发现可能泄露的密钥、令牌等
-  - 依赖包安全：检查第三方库的已知漏洞
+- **项目管理**
+  - 进度追踪：里程碑管理和燃尽图分析
+  - 任务分配：智能任务分解和工作量评估
+  - 团队协作：代码评审流程和知识共享
+  - 质量监控：自动化测试和性能监测
   
-- **最佳实践**
-  - 设计模式应用：推荐合适的设计模式
-  - 代码重用建议：识别可复用的代码片段
-  - 测试覆盖率：检查单元测试的完整性
-  - 异常处理规范：确保异常处理的合理性
+- **学习资源**
+  - 技能图谱：个性化的技能提升路线
+  - 实战项目：配套的练习项目集
+  - 最佳实践：详细的编码规范和架构指南
+  - 示例代码：常用功能的参考实现
+
+- **工具集成**
+  - CI/CD：持续集成和部署流程配置
+  - Git集成：版本控制和分支管理
+  - 环境配置：开发环境自动化设置
+  - 扩展支持：主流IDE和工具链集成
 </details>
 
 ## 🎯 使用方式选择
 
-快速上手 CursorMind：
+根据您的角色和需求，CursorMind 提供不同的使用方式：
 
-```bash
-# 安装完整工具集
-pip install cursormind
+1. **👨‍💻 开发者**
+   - 代码质量检查与优化
+   - 自动化工作流集成
+   - 最佳实践指南
 
-# 开始使用
-cursormind review file your_code.py    # 代码审查
-cursormind analyze dir your_project/    # 项目分析
-```
+2. **👨‍🎓 学习者**
+   - 循序渐进的学习路径
+   - 实战项目练习
+   - 技术能力评估
 
-#### 📚 学习资源概览
-- 循序渐进的学习路径
-- 丰富的学习笔记和示例
-- 标准化的项目管理模板
+3. **👥 团队**
+   - 标准化开发流程
+   - 协作效率提升
+   - 项目质量管控
 
 <details>
 <summary>查看详细使用指南 👉</summary>
 
-CursorMind 提供以下实际功能，您可以根据需求选择：
-
-### 1. 🛠️ 代码质量工具（需要安装）
+### 1. 开发者指南
 
 ```bash
-# 安装完整工具集
-pip install cursormind
-
-# 使用示例
+# 代码质量检查
 cursormind review file your_code.py
-cursormind analyze directory your_project/
+
+# 项目结构分析
+cursormind analyze structure ./your_project
+
+# 性能优化建议
+cursormind optimize your_code.py
 ```
 
-实际提供的功能：
-- 🔍 代码审查
-- 📊 目录分析
-- 📝 报告生成
+### 2. 学习者资源
 
-### 2. 📚 学习资源
+```bash
+# 查看学习路径
+cursormind learn path list
 
-项目实际结构：
-```
-CursorMind/
-├── learning_paths/        # 学习路径定义
-├── learning_notes/       # 学习笔记和文档
-└── project_management/   # 项目管理相关文件
+# 开始新的课程
+cursormind learn start python-basics
+
+# 练习项目
+cursormind practice new web-app
 ```
 
-#### 如何使用学习资源
+### 3. 团队协作
 
-1. **选择合适的学习路径**
-   ```bash
-   # 第一步：浏览学习路径目录，查看可用的路径
-   ls learning_paths/
-   
-   # 第二步：选择适合自己水平的路径
-   # 例如：如果你是Python初学者，打开 python_beginner.md
-   cat learning_paths/python_beginner.md
-   ```
+```bash
+# 项目初始化
+cursormind team init
 
-2. **使用学习笔记**
-   ```bash
-   # 第一步：查看笔记分类
-   ls learning_notes/categories/
-   
-   # 第二步：选择感兴趣的主题
-   cat learning_notes/categories/python/oop_basics.md
-   ```
+# 代码评审
+cursormind review request
 
-### 3. 🔧 开发工程管理
+# 生成团队报告
+cursormind report generate
+```
 
-为开发者和团队提供完整的工程管理解决方案：
+#### 最佳实践建议
 
-1. **项目模板使用**
-   ```bash
-   # 查看可用的项目模板
-   ls project_management/templates/
-   
-   # 创建新项目
-   cp -r project_management/templates/python_project ./my_project
-   ```
+1. **个人开发**
+   - 从代码质量检查开始
+   - 逐步引入自动化工具
+   - 建立个人知识库
 
-2. **工程规范应用**
-   ```bash
-   # 检查项目结构
-   cursormind analyze structure ./my_project
-   
-   # 生成开发文档
-   cursormind generate docs ./my_project
-   ```
+2. **学习过程**
+   - 选择适合的学习路径
+   - 配合实战项目练习
+   - 定期进行能力评估
 
-3. **团队协作工具**
-   - 代码评审流程管理
-   - 团队开发规范执行
-   - 项目进度追踪
-   - 质量指标监控
-
-#### 使用建议
-
-1. **个人开发者**
-   - 👉 使用代码质量工具保证代码规范
-   - 👉 参考学习资源提升技能
-   - 👉 采用项目模板快速启动
-
-2. **团队使用**
-   - 👉 配置团队开发规范
-   - 👉 使用协作工具提高效率
-   - 👉 实施质量监控和评估
+3. **团队使用**
+   - 统一开发规范
+   - 规划协作流程
+   - 定期质量复查
 
 > 注：更多功能正在持续开发中
 </details>

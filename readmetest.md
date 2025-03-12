@@ -524,5 +524,23 @@ python3 scripts/generate_timestamp.py week
    ```
 </details>
 
+## 📢 宣言
+
+我们坚信：
+- 技术应该是平等的，每个人都应该有机会学习和使用AI编程
+- Cursor不仅是一个IDE，更是一个让编程变得更简单、更智能的工具
+- 通过CursorMind，我们致力于让每个开发者都能享受到AI辅助编程的便利
+
+## 🤝 参与贡献
+
+我们热烈欢迎社区的每一位成员参与到CursorMind的开发中来：
+- 🌟 如果您觉得这个项目有帮助，请给我们一个star
+- 🐛 发现bug？请提交 [Issues](https://github.com/yourusername/cursormind/issues)
+- 💡 有新想法？欢迎提交 [Pull Requests](https://github.com/yourusername/cursormind/pulls)
+- 📝 帮助改进文档？这对初学者来说非常重要
+- 💬 分享您的使用经验和建议
+
+让我们一起打造更好的AI编程工具！
+
 ---
 *最后更新：2025-03-12 00:53:07 PDT*

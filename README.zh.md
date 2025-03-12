@@ -156,13 +156,6 @@ CursorMind/
    # 第二步：选择适合自己水平的路径
    # 例如：如果你是Python初学者，打开 python_beginner.md
    cat learning_paths/python_beginner.md
-   
-   # 第三步：按照路径文件中的指引，逐步学习
-   # 路径文件会列出：
-   # - 学习目标
-   # - 前置知识
-   # - 学习步骤
-   # - 练习项目
    ```
 
 2. **使用学习笔记**
@@ -171,53 +164,55 @@ CursorMind/
    ls learning_notes/categories/
    
    # 第二步：选择感兴趣的主题
-   # 例如：想学习Python面向对象编程
    cat learning_notes/categories/python/oop_basics.md
-   
-   # 第三步：动手实践笔记中的示例
-   # 每个笔记包含：
-   # - 概念解释
-   # - 代码示例
-   # - 常见问题
-   # - 练习题
    ```
 
-3. **使用项目管理模板**
+### 3. 🔧 开发工程管理
+
+为开发者和团队提供完整的工程管理解决方案：
+
+1. **项目模板使用**
    ```bash
-   # 第一步：查看可用的项目模板
+   # 查看可用的项目模板
    ls project_management/templates/
    
-   # 第二步：选择合适的项目模板
-   # 例如：创建一个新的Python项目
+   # 创建新项目
    cp -r project_management/templates/python_project ./my_project
-   
-   # 第三步：按照模板中的README进行开发
-   cat my_project/README.md
    ```
+
+2. **工程规范应用**
+   ```bash
+   # 检查项目结构
+   cursormind analyze structure ./my_project
+   
+   # 生成开发文档
+   cursormind generate docs ./my_project
+   ```
+
+3. **团队协作工具**
+   - 代码评审流程管理
+   - 团队开发规范执行
+   - 项目进度追踪
+   - 质量指标监控
 
 #### 使用建议
 
-1. **初学者**
-   - 👉 从 `learning_paths/beginner/` 开始
-   - 👉 结合 `learning_notes/basics/` 深入学习
-   - 👉 使用 `project_management/templates/starter/` 创建练习项目
+1. **个人开发者**
+   - 👉 使用代码质量工具保证代码规范
+   - 👉 参考学习资源提升技能
+   - 👉 采用项目模板快速启动
 
-2. **进阶学习者**
-   - 👉 选择 `learning_paths/intermediate/` 提升技能
-   - 👉 参考 `learning_notes/advanced/` 掌握高级概念
-   - 👉 使用 `project_management/templates/advanced/` 开发实际项目
+2. **团队使用**
+   - 👉 配置团队开发规范
+   - 👉 使用协作工具提高效率
+   - 👉 实施质量监控和评估
 
-3. **团队使用**
-   - 👉 使用 `project_management/guidelines/` 规范团队开发
-   - 👉 参考 `learning_notes/best_practices/` 改进开发流程
-   - 👉 基于 `project_management/templates/team/` 建立项目结构
-
-> 注：更多学习路径和笔记管理功能正在开发中
+> 注：更多功能正在持续开发中
 </details>
 
 ## 💻 安装指南
 
-### 快速开始
+快速开始：
 1. 确保安装 Python 3.9-3.13
 2. 运行安装命令：
 ```bash
@@ -245,154 +240,43 @@ set PYTHONPATH=src    # Windows
 
 2. **打开 PowerShell 并创建虚拟环境**
    ```powershell
-   # 创建项目目录
-   mkdir CursorMind
-   cd CursorMind
-   
    # 创建并激活虚拟环境
    python -m venv .venv
    .\.venv\Scripts\Activate.ps1
-   
-   # 如果出现权限错误，请以管理员身份运行：
-   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
    ```
 
 3. **安装 CursorMind**
    ```powershell
-   # 升级 pip
-   python -m pip install --upgrade pip
-   
-   # 安装 cursormind
+   pip install --upgrade pip
    pip install cursormind
-   
-   # 设置 PYTHONPATH（PowerShell）
    $env:PYTHONPATH = "src"
    ```
 
-4. **验证安装**
-   ```powershell
-   cursormind --version
-   cursormind review file src/cursormind/core/code_review.py
-   ```
+### macOS/Linux 安装步骤
 
-### macOS 安装步骤
-
-1. **使用 Homebrew 安装 Python**
+1. **创建虚拟环境**
    ```bash
-   # 安装 Homebrew（如果未安装）
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   
-   # 安装 Python 3.13
-   brew install python@3.13
-   ```
-
-2. **创建虚拟环境**
-   ```bash
-   # 创建项目目录
-   mkdir CursorMind && cd CursorMind
-   
-   # 创建并激活虚拟环境
    python3.13 -m venv .venv
    source .venv/bin/activate
    ```
 
-3. **安装 CursorMind**
+2. **安装 CursorMind**
    ```bash
-   # 升级 pip
    pip install --upgrade pip
-   
-   # 安装 cursormind
    pip install cursormind
-   
-   # 设置 PYTHONPATH
    export PYTHONPATH=src
    ```
 
-4. **验证安装**
-   ```bash
-   cursormind --version
-   cursormind review file src/cursormind/core/code_review.py
-   ```
+### 验证安装
 
-### Ubuntu/Debian 安装步骤
-
-1. **安装 Python 和依赖**
-   ```bash
-   # 更新包列表
-   sudo apt update
-   
-   # 添加 deadsnakes PPA 以获取最新的 Python 版本
-   sudo add-apt-repository ppa:deadsnakes/ppa
-   sudo apt update
-   
-   # 安装 Python 3.13 和开发工具
-   sudo apt install python3.13 python3.13-venv python3.13-dev python3-pip git
-   ```
-
-2. **创建虚拟环境**
-   ```bash
-   # 创建项目目录
-   mkdir CursorMind && cd CursorMind
-   
-   # 创建并激活虚拟环境
-   python3.13 -m venv .venv
-   source .venv/bin/activate
-   ```
-
-3. **安装 CursorMind**
-   ```bash
-   # 升级 pip
-   pip install --upgrade pip
-   
-   # 安装 cursormind
-   pip install cursormind
-   
-   # 设置 PYTHONPATH
-   export PYTHONPATH=src
-   ```
-
-4. **验证安装**
-   ```bash
-   cursormind --version
-   cursormind review file src/cursormind/core/code_review.py
-   ```
-
-### 安装验证清单
-
-请确保以下所有命令都能正常运行：
-
-1. **版本检查**
-   ```bash
-   cursormind --version
-   # 应输出：cursormind, version 0.2.1
-   ```
-
-2. **代码审查**
-   ```bash
-   cursormind review file src/cursormind/core/code_review.py
-   # 应显示代码审查报告
-   ```
-
-3. **目录审查**
-   ```bash
-   cursormind review dir src/cursormind/core
-   # 应显示目录审查报告
-   ```
-
-如果任何命令失败，请参考下方的故障排除指南。
-</details>
-
-### 💻 安装指南
-
-快速开始：
-
-1. 确保安装 Python 3.9-3.13
-2. 运行安装命令：
+运行以下命令确认安装成功：
 ```bash
-pip install cursormind
-export PYTHONPATH=src  # Unix/macOS
-set PYTHONPATH=src    # Windows
+cursormind --version
+cursormind review file your_code.py
 ```
+
+如果遇到问题，请参考下方的故障排除指南。
+</details>
 
 ### ❗ 常见问题
 

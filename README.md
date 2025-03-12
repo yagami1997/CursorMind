@@ -499,7 +499,7 @@ Join our vibrant community:
 
 Let's build better AI programming tools together!
 
-### 📜 MIT License
+#### 📜 MIT License
 
 CursorMind is released under the MIT License, which means:
 - ✅ You can freely use, modify, and distribute this software
@@ -513,6 +513,12 @@ We encourage individuals and organizations to:
 - 🤝 Collaborate on making AI-assisted development more accessible
 
 For full license details, see the [LICENSE](LICENSE) file.
+
+<div align="center" style="color: #666;">
+
+*Cursor empowers efficiency, while your vision creates the future.*
+
+</div>
 
 ---
 *Last updated: 2025-03-12 02:37:42 PDT*

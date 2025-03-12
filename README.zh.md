@@ -499,7 +499,7 @@ python3 scripts/generate_timestamp.py week
 
 让我们一起打造更好的AI编程工具！
 
-### 📜 MIT 开源许可
+#### 📜 MIT 开源许可
 
 CursorMind 采用 MIT 许可证开源，这意味着：
 - ✅ 您可以自由使用、修改和分发本软件
@@ -513,6 +513,12 @@ CursorMind 采用 MIT 许可证开源，这意味着：
 - 🤝 共同推进 AI 辅助开发的普及
 
 完整许可证详情，请查看 [LICENSE](LICENSE) 文件。
+
+<div align="center" style="color: #666;">
+
+*Cursor赋能开发效率，而你的愿景能创造未来。*
+
+</div>
 
 ---
 *最后更新：2025-03-12 02:37:42 PDT*

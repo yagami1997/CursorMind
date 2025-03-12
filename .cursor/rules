@@ -1,34 +1,42 @@
-# Cursor Engineering Rules
-## Project Structure
-- Use project_management/control/MAIN_CONTROL.md as the central control document
-- Create daily reports in project_management/actuals/reports/daily/daily_report_YYYYMMDD.md
-- Generate weekly reports in project_management/actuals/reports/weekly/weekly_report_weekN.md
-- Track overall project progress in PROJECT_PROGRESS.md at the root level
-- Use templates from project_management/templates/ for creating all new documents
+# Cursor Engineering Rules v2.0
 
-## Code Generation
-- Always produce complete, runnable code with proper implementation
-- Avoid placeholders or "to be implemented" sections entirely
-- Maintain an 80% code to 20% explanation ratio
-- Include comprehensive error handling in all code
-- Ensure code is optimized and follows best practices
+## Project Management Structure
+- Use `project_management/control/MAIN_CONTROL.md` as the single source of truth for project status
+- Follow standardized naming conventions for all reports:
+  - Daily: `project_management/actuals/reports/daily/daily_report_YYYYMMDD.md`
+  - Weekly: `project_management/actuals/reports/weekly/weekly_report_YYYYWNN.md` 
+  - Decisions: `project_management/actuals/decisions/decision_DID.md`
+- Update `PROJECT_PROGRESS.md` for stakeholder-facing progress tracking
+- Always use `./scripts/timestamp.sh` to generate consistent timestamps
 
-## Anti-Patterns
-- If analysis exceeds 20% of time without code production: STOP and use [CODE NOW]
-- Prevent feature creep: strictly adhere to defined requirements
-- Break circular thinking immediately with the [RESET] command
-- Eliminate over-explanation: assume readers have expert knowledge
-- Avoid perfectionism that delays delivery of working solutions
+## Code Development Standards
+- Implement complete, production-ready code with proper error handling
+- Maintain 80% code to 20% documentation ratio in implementation files
+- Follow language-specific best practices (PEP8 for Python, etc.)
+- Ensure unit test coverage for all new functionality (minimum 85%)
+- Document public APIs with standardized docstrings
+- Review code for security vulnerabilities before submission
 
-## Commands
-- [CODE NOW] - Immediately stop analysis and begin writing code
-- [FOCUS] - Restrict context to the specified scope to prevent distractions
-- [RESET] - Discard current approach and restart with a fresh perspective
-- [DECISION] - Finalize a choice and move forward without second-guessing
+## Workflow Optimization
+- Use [CODE NOW] when analysis exceeds 5 minutes without concrete progress
+- Implement [FOCUS] technique to establish clear context boundaries
+- Apply [RESET] command to break circular reasoning patterns
+- Use [DECISION] marker to document important engineering choices
+- Follow "implement, test, refactor" development cycle
+- Commit frequently with descriptive, atomic changes
 
-## Task Format
-- Define clear, measurable deliverables and concrete success criteria
-- Establish specific time limits for completion of each task
-- Set explicit context boundaries to prevent scope expansion
-- Provide sequential, actionable steps for implementation
-- Include verification methods to confirm successful completion
+## Task Execution Guidelines
+- Define tasks with SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound)
+- Break large tasks into sub-tasks of no more than 4 hours each
+- Include verification methods and acceptance criteria for each task
+- Link tasks to specific project requirements or objectives
+- Document blockers and dependencies explicitly
+- Set clear completion deadlines for all tasks
+
+## Quality Assurance Practices
+- Conduct peer code reviews for all significant changes
+- Run static analysis tools before committing (linters, type checkers)
+- Validate against performance benchmarks for critical components
+- Document edge cases and their handling mechanisms
+- Maintain backward compatibility unless explicitly specified otherwise
+- Create regression tests for all bug fixes

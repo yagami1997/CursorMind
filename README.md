@@ -7,7 +7,7 @@
 
 <div align="center">
   <h1>CursorMind</h1>
-  <h3>Enhance Your Cursor Development Efficiency and Project Management Quality</h3>
+  <h3>Elevate Your Development Experience with AI-Powered Tools</h3>
   <p><strong>Current Version: Beta 0.2.1</strong></p>
   
   ![License](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -20,445 +20,408 @@
 ## 📝 Update Log
 
 ### Beta 0.2.1 (2025-03-12 00:25:02 PDT)
-- 🔄 Refactored core code structure, improved system stability
-- ✨ Added code review functionality, supporting multiple coding standards
-- 🛡️ Enhanced file operation security, preventing potential risks
-- ⚡️ Optimized performance check logic, improved analysis efficiency
-- 📊 Improved project management features, supporting more scenarios
-- 📚 Added learning path functionality, supporting programming education
+- 🔄 Enhanced core architecture for improved stability and performance
+- ✨ Introduced comprehensive code review system with multi-standard support
+- 🛡️ Strengthened file operation security mechanisms
+- ⚡️ Optimized performance analysis algorithms
+- 📊 Expanded project management capabilities
+- 📚 Launched interactive learning paths feature
 
 ### Beta 0.1 (2025-03-07)
-- 🎉 Released initial project structure
-- ✅ Implemented basic functional modules
+- 🎉 Initial release with foundational framework
+- ✅ Core functionality implementation
 
 ---
 
 ## 📖 Project Introduction
 
-🌟 **CursorMind** is a comprehensive development toolkit for developers 👨‍💻, project managers 👨‍💼, teams 👥, and students 👨‍🎓. It provides not only code quality assurance tools 🛠️ but also includes project management 📊, learning assistance 📚, and best practice guidelines 📝. For middle and high school students learning programming, CursorMind offers an ideal learning platform 🎯, helping them establish correct software engineering mindset 🧠 from the beginning of their programming journey.
+🌟 **CursorMind** is your intelligent companion for AI-assisted development, designed to serve developers 👨‍💻, project managers 👨‍💼, teams 👥, and students 👨‍🎓. Beyond traditional development tools, it integrates code quality assurance 🛠️, project management 📊, learning assistance 📚, and best practice guidelines 📝. For students beginning their programming journey, CursorMind provides an ideal platform 🎯 to develop proper software engineering mindset 🧠 from day one.
 
 ### 🎯 Core Values
 
-1. **Educational Empowerment**
-   - Provide progressive learning paths for programming beginners
-   - Help educators establish standardized teaching systems
-   - Cultivate engineering thinking through practical projects
+1. **Educational Excellence**
+   - Structured learning paths for programming beginners
+   - Standardized teaching frameworks for educators
+   - Hands-on projects for practical skill development
 
 2. **Development Standards**
-   - Provide industry-recognized coding standards
-   - Implement best development practices
-   - Ensure code quality and consistency
+   - Industry-aligned coding guidelines
+   - Best practice implementations
+   - Quality-focused development approach
 
 3. **Project Management**
-   - Standardize project processes
-   - Improve team collaboration efficiency
-   - Ensure project delivery quality
+   - Streamlined project workflows
+   - Enhanced team collaboration
+   - Quality-driven delivery process
 
 4. **Automation Tools**
-   - Automatic code quality checks
-   - Performance analysis and optimization
+   - Intelligent code quality assessment
+   - Performance optimization tools
    - Security vulnerability detection
 
 ## 🚀 Feature Details
 
-### 1. Code Quality Assurance
+CursorMind offers comprehensive development support:
+
+### 1. Code Quality Assurance ⚡️
+- Smart code review with standard compliance
+- Performance analysis and optimization
+- Automated security vulnerability detection
+- Best practice guidance
+
+### 2. Project Management Tools 📊
+- Project progress tracking
+- Team collaboration workflows
+- Automated reporting system
+- Quality metrics monitoring
+
+### 3. Learning & Development 📚
+- Personalized learning paths
+- Rich resource library
+- Practical project exercises
+- Skill assessment tools
+
+### 4. Development Tools Integration 🛠️
+- Automated workflow configuration
+- Version control integration
+- CI/CD pipeline support
+- Development environment standardization
+
+<details>
+<summary>View Detailed Feature List 👉</summary>
+
 - **Code Review**
-  - Style Check: Ensure code complies with PEP8, Google Style, and other mainstream coding standards
-  - Complexity Analysis: Calculate cyclomatic complexity, identify code blocks needing refactoring
-  - Naming Conventions: Check if variables, functions, and classes follow best practices
-  - Comment Completeness: Verify if key functionality has sufficient documentation
+  - Style Compliance: PEP8, Google Style, and other standard checks
+  - Complexity Analysis: Cyclomatic complexity calculation and refactoring suggestions
+  - Naming Conventions: Best practice validation for variables, functions, and classes
+  - Documentation Coverage: Critical functionality documentation verification
   
 - **Performance Analysis**
-  - Algorithm Complexity Assessment: Analyze time and space complexity
-  - Memory Usage Monitoring: Identify memory leaks and excessive memory usage
-  - Performance Bottleneck Location: Find time-consuming operations through performance analysis
-  - Optimization Suggestions: Provide specific performance optimization solutions
+  - Algorithm Complexity: Time and space complexity assessment
+  - Memory Management: Leak detection and usage optimization
+  - Performance Profiling: Bottleneck identification
+  - Optimization Guide: Targeted improvement recommendations
   
-- **Security Check**
-  - SQL Injection Detection: Identify potential database security risks
-  - XSS Vulnerability Scanning: Check for cross-site scripting attack vulnerabilities
-  - Sensitive Information Detection: Discover potentially leaked keys, tokens, etc.
-  - Dependency Package Security: Check known vulnerabilities in third-party libraries
+- **Project Management**
+  - Progress Tracking: Milestone management and burndown analysis
+  - Task Management: Smart task breakdown and workload assessment
+  - Team Collaboration: Code review workflow and knowledge sharing
+  - Quality Monitoring: Automated testing and performance tracking
   
-- **Best Practices**
-  - Design Pattern Application: Recommend suitable design patterns
-  - Code Reuse Suggestions: Identify reusable code segments
-  - Test Coverage: Check unit test completeness
-  - Exception Handling Standards: Ensure exception handling reasonability
+- **Learning Resources**
+  - Skill Map: Personalized improvement pathways
+  - Practice Projects: Curated exercise collection
+  - Best Practices: Detailed coding standards and architecture guidelines
+  - Reference Code: Common functionality implementations
+  
+- **Tool Integration**
+  - CI/CD: Pipeline configuration and automation
+  - Git Integration: Version control and branch management
+  - Environment Setup: Development environment automation
+  - IDE Support: Popular development tool integration
+</details>
 
-### 2. Project Management Tools
-- **Progress Tracking**
-  - Milestone Management: Set and monitor key project nodes
-  - Burndown Chart Analysis: Visualize project progress and workload
-  - Delay Warning: Intelligently identify tasks that may cause delays
-  - Resource Allocation: Optimize team member work distribution
-  
-- **Task Management**
-  - Task Breakdown: Break large tasks into manageable subtasks
-  - Priority Sorting: Sort tasks based on importance and urgency
-  - Dependency Relationships: Manage task prerequisites and post-conditions
-  - Time Estimation: Assist in evaluating task time requirements
-  
-- **Report Generation**
-  - Daily/Weekly Reports: Automatically generate standardized work reports
-  - Code Quality Reports: Summarize code review and test results
-  - Project Health: Assess overall project status
-  - Trend Analysis: Predict project development direction
-  
-- **Team Collaboration**
-  - Code Review: Standardized code review process
-  - Knowledge Sharing: Team best practices and experience sharing
-  - Team Kanban: Visual task collaboration management
-  - Instant Feedback: Quick response to team member issues
+## 🎯 Getting Started
 
-### 3. Learning and Development
-- **Learning Paths**
-  - Skill Map: Personalized skill improvement routes
-  - Advanced Guides: Graded learning resource recommendations
-  - Practical Projects: Supporting practice projects
-  - Learning Tracking: Record learning progress and achievements
-  
-- **Best Practices**
-  - Coding Standards: Detailed code writing guidelines
-  - Architecture Design: Common architecture patterns and application scenarios
-  - Performance Optimization: System performance tuning methodology
-  - Secure Development: Security coding guidelines and practices
-  
-- **Example Code**
-  - Design Patterns: Implementation examples of common design patterns
-  - Algorithm Implementation: Best practices for classic algorithms
-  - Function Modules: Reference implementations of common features
-  - Test Cases: Unit test writing examples
-  
-- **Technical Documentation**
-  - API Documentation: Detailed interface usage instructions
-  - Architecture Documentation: System design and module descriptions
-  - Deployment Guide: Environment configuration and deployment process
-  - Troubleshooting: Common problem solutions
+Choose your path with CursorMind:
 
-## 🎯 Usage Method Selection
+### 1. Individual Developer 👨‍💻
 
-CursorMind provides the following actual features that you can choose based on your needs:
-
-### 1. 🛠️ Code Quality Tools (Installation Required)
-
+Quick start with code quality tools:
 ```bash
-# Install complete toolkit
+# Install the toolkit
 pip install cursormind
+export PYTHONPATH=src  # Unix/macOS
+set PYTHONPATH=src    # Windows
 
-# Usage examples
-cursormind review file your_code.py
-cursormind analyze directory your_project/
+# Begin using
+cursormind review file your_code.py    # Code review
+cursormind analyze dir your_project/    # Project analysis
 ```
 
-Actually provided features:
-- 🔍 Code review
-- 📊 Directory analysis
-- 📝 Report generation
+### 2. Learner 📚
 
-### 2. 📚 Learning Resources
+Start your learning journey:
+```bash
+# Browse available learning paths
+cursormind path list
 
-Project actual structure:
+# Begin a learning path (e.g., Python basics)
+cursormind path start python-beginner
+
+# Check progress and resources
+cursormind path status
+
+# Complete current task and get next steps
+cursormind path next
 ```
-CursorMind/
-├── learning_paths/        # Learning path definitions
-├── learning_notes/       # Learning notes and documentation
-└── project_management/   # Project management related files
+
+### 3. Project Team 👥
+
+Structured project management workflow:
+```bash
+# Step 1: Initialize new project
+./project_management/scripts/init_project.sh "Project Name"
+
+# Step 2: Daily workflow management
+./project_management/scripts/create_daily_report.sh    # Daily report
+./project_management/scripts/update_progress.sh 35 "Auth module complete"  # Update progress
+./project_management/scripts/create_task.sh "Implement login"   # Create task
+./project_management/scripts/update_task.sh TASK-001 "In Progress"  # Update status
+
+# Step 3: Generate reports
+./project_management/scripts/create_weekly_report.sh    # Weekly summary
 ```
 
-#### How to Use Learning Resources
+<details>
+<summary>View Detailed Usage Guide 👉</summary>
 
-1. **Choose Suitable Learning Path**
+### Developer Workflow
+
+1. **Quality Management**
+   - Use `cursormind review` for code analysis
+   - Run `cursormind analyze` for project assessment
+   - Apply recommended best practices
+   - Address security vulnerabilities
+
+2. **Documentation Management**
+   - Use standardized templates (`project_management/templates/`)
+   - Follow timestamp conventions (`scripts/generate_timestamp.py`)
+   - Maintain progress tracking (`PROJECT_PROGRESS.md`)
+   - Document technical decisions
+
+3. **Engineering Standards**
+   - Follow language-specific guidelines (e.g., PEP8 for Python)
+   - Maintain code-to-documentation ratio (80:20)
+   - Ensure test coverage (minimum 85%)
+   - Regular security audits
+
+### Learning Guide
+
+1. **Path Selection**
+   - Browse available paths (`learning_paths/`)
+   - Choose appropriate skill level
+   - Set learning objectives
+   - Track progress
+
+2. **Resource Utilization**
+   - Access recommended materials
+   - Complete milestone projects
+   - Study example implementations
+   - Document learning insights
+
+3. **Practical Development**
+   - Use project templates
+   - Apply learned concepts
+   - Get mentor feedback
+   - Continuous improvement
+
+### Team Collaboration
+
+1. **Project Setup**
    ```bash
-   # Step 1: Browse learning path directory, check available paths
-   ls learning_paths/
+   # Create project structure
+   ./project_management/scripts/init_project.sh "Project Name"
    
-   # Step 2: Choose path suitable for your level
-   # For example: If you're a Python beginner, open python_beginner.md
-   cat learning_paths/python_beginner.md
-   
-   # Step 3: Follow the guidance in the path file, learn step by step
-   # Path file will list:
-   # - Learning objectives
-   # - Prerequisites
-   # - Learning steps
-   # - Practice projects
+   # Configure workflow
+   cp project_management/templates/* ./
    ```
 
-2. **Use Learning Notes**
+2. **Daily Operations**
    ```bash
-   # Step 1: Check note categories
-   ls learning_notes/categories/
+   # Create daily report
+   ./project_management/scripts/create_daily_report.sh "Version Release"
    
-   # Step 2: Choose interesting topic
-   # For example: Want to learn Python OOP
-   cat learning_notes/categories/python/oop_basics.md
+   # Update progress
+   ./project_management/scripts/update_progress.sh 50 "MVP Complete"
    
-   # Step 3: Practice examples in notes
-   # Each note contains:
-   # - Concept explanation
-   # - Code examples
-   # - Common problems
-   # - Exercises
+   # Task management
+   ./project_management/scripts/create_task.sh "New Feature"
+   ./project_management/scripts/update_task.sh TASK-001 "In Progress"
    ```
 
-3. **Use Project Management Templates**
+3. **Quality Control**
    ```bash
-   # Step 1: Check available project templates
-   ls project_management/templates/
+   # Code review
+   cursormind review file src/main.py
    
-   # Step 2: Choose suitable project template
-   # For example: Create a new Python project
-   cp -r project_management/templates/python_project ./my_project
+   # Project analysis
+   cursormind analyze dir ./src
    
-   # Step 3: Develop according to template README
-   cat my_project/README.md
+   # Quality report
+   ./project_management/scripts/generate_quality_report.sh
    ```
 
-#### Usage Suggestions
+### Best Practices
 
-1. **Beginners**
-   - 👉 Start from `learning_paths/beginner/`
-   - 👉 Combine with `learning_notes/basics/` for deep learning
-   - 👉 Use `project_management/templates/starter/` to create practice projects
+1. **Individual Development**
+   - Pre-commit code review
+   - Real-time documentation updates
+   - Coding standard compliance
+   - Regular performance optimization
 
-2. **Advanced Learners**
-   - 👉 Choose `learning_paths/intermediate/` to improve skills
-   - 👉 Reference `learning_notes/advanced/` to master advanced concepts
-   - 👉 Use `project_management/templates/advanced/` to develop actual projects
+2. **Learning Enhancement**
+   - Structured learning plan
+   - Consistent practice
+   - Regular reflection
+   - Community engagement
 
-3. **Team Usage**
-   - 👉 Use `project_management/guidelines/` to standardize team development
-   - 👉 Reference `learning_notes/best_practices/` to improve development process
-   - 👉 Based on `project_management/templates/team/` to establish project structure
+3. **Team Collaboration**
+   - Standard adherence
+   - Effective communication
+   - Knowledge sharing
+   - Regular code reviews
 
-> Note: More learning path and note management features are under development
-
-### 3. 🔧 Development Tools
-
-Actually included tools:
-```
-CursorMind/
-├── src/                 # Source code directory
-├── scripts/             # Utility scripts
-└── tests/              # Test cases
-```
-
-## 💡 Usage Suggestions
-
-Based on actual project situations:
-
-### Individual Developers
-- ✅ Use code review tools
-- ✅ Reference learning paths
-- ✅ Use project management templates
-
-### Team Usage
-- ✅ Install complete toolkit
-- ✅ Use project management features
-- ✅ Configure team development standards
+</details>
 
 ## 💻 Installation Guide
 
+Quick Start:
+1. Ensure Python 3.9-3.13 is installed
+2. Run installation commands:
+```bash
+pip install cursormind
+export PYTHONPATH=src  # Unix/macOS
+set PYTHONPATH=src    # Windows
+```
+
+<details>
+<summary>View Complete Installation Guide 👉</summary>
+
 ### System Requirements
 
-- Python 3.9-3.13 (Python 3.13 recommended)
+- Python 3.9-3.13 (3.13 recommended)
 - pip package manager
 - Git (optional, for version control)
 
-### Windows Installation Steps
+### Windows Installation
 
 1. **Install Python**
    ```powershell
-   # Download and install Python 3.13 from https://www.python.org/downloads/
-   # Must check "Add Python to PATH" during installation
+   # Download Python 3.13 from https://www.python.org/downloads/
+   # Enable "Add Python to PATH" during installation
    ```
 
-2. **Open PowerShell and Create Virtual Environment**
+2. **Setup Environment**
    ```powershell
-   # Create project directory
-   mkdir CursorMind
-   cd CursorMind
-   
    # Create and activate virtual environment
    python -m venv .venv
    .\.venv\Scripts\Activate.ps1
-   
-   # If permission error occurs, run as administrator:
-   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
    ```
 
 3. **Install CursorMind**
    ```powershell
-   # Upgrade pip
-   python -m pip install --upgrade pip
-   
-   # Install cursormind
+   pip install --upgrade pip
    pip install cursormind
-   
-   # Set PYTHONPATH (PowerShell)
    $env:PYTHONPATH = "src"
    ```
 
-4. **Verify Installation**
-   ```powershell
-   cursormind --version
-   cursormind review file src/cursormind/core/code_review.py
-   ```
+### macOS/Linux Installation
 
-### macOS Installation Steps
-
-1. **Install Python Using Homebrew**
+1. **Create Environment**
    ```bash
-   # Install Homebrew (if not installed)
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   
-   # Install Python 3.13
-   brew install python@3.13
-   ```
-
-2. **Create Virtual Environment**
-   ```bash
-   # Create project directory
-   mkdir CursorMind && cd CursorMind
-   
-   # Create and activate virtual environment
    python3.13 -m venv .venv
    source .venv/bin/activate
    ```
 
-3. **Install CursorMind**
+2. **Install CursorMind**
    ```bash
-   # Upgrade pip
    pip install --upgrade pip
-   
-   # Install cursormind
    pip install cursormind
-   
-   # Set PYTHONPATH
    export PYTHONPATH=src
    ```
 
-4. **Verify Installation**
-   ```bash
-   cursormind --version
-   cursormind review file src/cursormind/core/code_review.py
-   ```
+### Verify Installation
 
-### Ubuntu/Debian Installation Steps
+Run these commands:
+```bash
+cursormind --version
+cursormind review file your_code.py
+```
 
-1. **Install Python and Dependencies**
-   ```bash
-   # Update package list
-   sudo apt update
-   
-   # Add deadsnakes PPA to get latest Python version
-   sudo add-apt-repository ppa:deadsnakes/ppa
-   sudo apt update
-   
-   # Install Python 3.13 and development tools
-   sudo apt install python3.13 python3.13-venv python3.13-dev python3-pip git
-   ```
+For issues, refer to the troubleshooting guide below.
+</details>
 
-2. **Create Virtual Environment**
-   ```bash
-   # Create project directory
-   mkdir CursorMind && cd CursorMind
-   
-   # Create and activate virtual environment
-   python3.13 -m venv .venv
-   source .venv/bin/activate
-   ```
+### ❗ Common Issues
 
-3. **Install CursorMind**
-   ```bash
-   # Upgrade pip
-   pip install --upgrade pip
-   
-   # Install cursormind
-   pip install cursormind
-   
-   # Set PYTHONPATH
-   export PYTHONPATH=src
-   ```
+Quick solutions for common problems:
 
-4. **Verify Installation**
-   ```bash
-   cursormind --version
-   cursormind review file src/cursormind/core/code_review.py
-   ```
+1. Verify Python version compatibility (3.9-3.13)
+2. Check PYTHONPATH environment variable
+3. Confirm virtual environment activation
 
-### Troubleshooting
+<details>
+<summary>View Complete Troubleshooting Guide 👉</summary>
 
-#### Windows Common Issues
+### Windows Troubleshooting
 
-1. **Python Not Added to PATH**
+1. **Python PATH Issues**
    ```powershell
-   # Check if Python is in PATH
+   # Check Python installation
    python --version
    
-   # If not found, manually add to PATH
-   # Open System Properties -> Environment Variables -> Path -> Add Python installation path
-   # Usually at: C:\Users\username\AppData\Local\Programs\Python\Python313
+   # Manual PATH addition if needed
+   # System Properties -> Environment Variables -> Path
+   # Add: C:\Users\username\AppData\Local\Programs\Python\Python313
    ```
 
-2. **Virtual Environment Activation Failed**
+2. **Virtual Environment Problems**
    ```powershell
-   # If permission error occurs
+   # Fix permission issues
    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
    
-   # Reactivate virtual environment
+   # Reactivate environment
    .\.venv\Scripts\Activate.ps1
    ```
 
-3. **Module Not Found**
+3. **Module Import Errors**
    ```powershell
-   # Ensure PYTHONPATH is correctly set
+   # Verify PYTHONPATH
    echo $env:PYTHONPATH
    
-   # If needed, reset
+   # Reset if needed
    $env:PYTHONPATH = "src"
    ```
 
-#### macOS Common Issues
+### macOS Troubleshooting
 
-1. **Python Version Conflict**
+1. **Python Version Issues**
    ```bash
-   # Check Python version
+   # Version check
    python3 --version
    
    # Use specific version
    python3.13 -m pip install cursormind
    ```
 
-2. **Permission Issues**
+2. **Permission Problems**
    ```bash
    # Fix permissions
    sudo chown -R $USER ~/.local
    chmod +x ~/.local/bin/cursormind
    ```
 
-3. **Environment Variable Persistence**
+3. **Environment Variables**
    ```bash
-   # Add to .zshrc or .bash_profile
+   # Add to shell profile
    echo 'export PYTHONPATH=src' >> ~/.zshrc
    source ~/.zshrc
    ```
 
-#### Ubuntu/Debian Common Issues
+### Ubuntu/Debian Troubleshooting
 
-1. **PPA Addition Failed**
+1. **PPA Issues**
    ```bash
-   # Install necessary tools
+   # Install prerequisites
    sudo apt install software-properties-common
    
-   # Retry adding PPA
+   # Add PPA
    sudo add-apt-repository ppa:deadsnakes/ppa
    ```
 
-2. **Dependency Issues**
+2. **Dependency Problems**
    ```bash
-   # Install build dependencies
+   # Install build requirements
    sudo apt install build-essential libssl-dev libffi-dev python3.13-dev
    ```
 
@@ -468,30 +431,73 @@ Based on actual project situations:
    sudo chown -R $USER ~/.local
    sudo chmod +x ~/.local/bin/cursormind
    ```
+</details>
 
-### Installation Verification Checklist
+<details>
+<summary>🕒 Timestamp Standards</summary>
 
-Please ensure all following commands run normally:
+Ensure consistency in project documentation with our timestamp tools.
 
-1. **Version Check**
+### Using Timestamp Tools
+
+```bash
+# Generate full timestamp (default)
+python3 scripts/generate_timestamp.py full
+# Output: 2025-03-11 23:37:45 PDT
+
+# Date only
+python3 scripts/generate_timestamp.py date
+# Output: 2025-03-11
+
+# Date and time (no timezone)
+python3 scripts/generate_timestamp.py datetime
+# Output: 2025-03-11 23:37:45
+
+# Compact format
+python3 scripts/generate_timestamp.py compact
+# Output: 20250311
+
+# Year and week
+python3 scripts/generate_timestamp.py week
+# Output: 2025W11
+```
+
+### Timestamp Guidelines
+
+1. **Requirements**
+   - Use `scripts/generate_timestamp.py` for all timestamps
+   - No manual timestamp modifications
+   - Maintain consistent timezone (default: US Pacific Time PST/PDT)
+   - Configure timezone in `.env` file if needed
+
+2. **Git Hook Setup**
    ```bash
-   cursormind --version
-   # Should output: cursormind, version 0.2.1
+   # Copy pre-commit hook
+   cp scripts/hooks/pre-commit .git/hooks/
+   
+   # Set permissions
+   chmod +x .git/hooks/pre-commit
    ```
+</details>
 
-2. **Code Review**
-   ```bash
-   cursormind review file src/cursormind/core/code_review.py
-   # Should display code review report
-   ```
+### 📢 Manifesto
 
-3. **Directory Review**
-   ```bash
-   cursormind review dir src/cursormind/core
-   # Should display directory review report
-   ```
+We believe:
+- Technology should be accessible to everyone
+- Cursor is more than an IDE; it's a gateway to smarter programming
+- CursorMind empowers developers with AI-assisted programming
+- Open source drives technological progress - fork and contribute!
 
-If any command fails, please refer to the troubleshooting guide above. If problems persist, please report in GitHub Issues.
+### 🤝 Community Participation
+
+Join our vibrant community:
+- 🌟 Star us if you find CursorMind helpful
+- 🐛 Report bugs via [Issues](https://github.com/yourusername/cursormind/issues)
+- 💡 Submit [Pull Requests](https://github.com/yourusername/cursormind/pulls)
+- 📝 Help improve documentation
+- 💬 Share your experience and suggestions
+
+Let's build better AI programming tools together!
 
 ---
-*Last updated: 2025-03-12 00:52:15 PDT*
+*Last updated: 2025-03-12 02:37:42 PDT*

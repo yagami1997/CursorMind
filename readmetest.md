@@ -474,7 +474,7 @@ set PYTHONPATH=src    # Windows
 </details>
 
 <details>
-<summary>## 🕒 时间戳规范</summary>
+<summary>🕒 时间戳规范</summary>
 
 为确保项目文档中的时间戳保持一致性和准确性，我们提供了专门的时间戳生成工具。
 

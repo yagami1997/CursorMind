@@ -1,0 +1,50 @@
+{
+  "paths": [
+    {
+      "id": "python-beginner",
+      "name": "Python入门之路",
+      "description": "从零开始学习Python编程",
+      "difficulty": "初级",
+      "estimated_time": "3个月",
+      "stages": [
+        {
+          "name": "基础语法",
+          "steps": [
+            "变量和数据类型",
+            "控制流程",
+            "函数定义和使用"
+          ],
+          "resources": [
+            {
+              "type": "文档",
+              "name": "Python官方教程",
+              "url": "https://docs.python.org/zh-cn/3/tutorial/"
+            }
+          ],
+          "projects": [
+            {
+              "name": "计算器程序",
+              "description": "创建一个简单的命令行计算器"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "web-beginner",
+      "name": "网页设计入门",
+      "description": "学习HTML、CSS和JavaScript基础",
+      "difficulty": "初级",
+      "estimated_time": "2个月",
+      "stages": []
+    },
+    {
+      "id": "pm-beginner",
+      "name": "项目管理入门",
+      "description": "学习基本的项目管理概念和工具",
+      "difficulty": "初级",
+      "estimated_time": "1个月",
+      "stages": []
+    }
+  ]
+}

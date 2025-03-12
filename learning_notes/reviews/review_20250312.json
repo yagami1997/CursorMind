@@ -1,0 +1,55 @@
+{
+  "period": "2025-03-06 至 2025-03-12",
+  "total_notes": 2,
+  "total_words": 2,
+  "topics": {
+    "test": 1,
+    "python": 1
+  },
+  "tags": {},
+  "daily_notes": [
+    {
+      "date": "2025-03-12",
+      "notes": [
+        {
+          "id": "2025-03-12-0001",
+          "content": "测试笔记",
+          "topic": "test",
+          "tags": [],
+          "created_at": "2025-03-11 21:25:03 PDT",
+          "updated_at": "2025-03-11 21:25:03 PDT"
+        },
+        {
+          "id": "2025-03-12-0002",
+          "content": "学习了Python的基本语法，包括变量定义、数据类型等",
+          "topic": "python",
+          "tags": [],
+          "created_at": "2025-03-11 21:28:10 PDT",
+          "updated_at": "2025-03-11 21:28:10 PDT"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-12",
+      "notes": [
+        {
+          "id": "2025-03-12-0001",
+          "content": "测试笔记",
+          "topic": "test",
+          "tags": [],
+          "created_at": "2025-03-11 21:25:03 PDT",
+          "updated_at": "2025-03-11 21:25:03 PDT"
+        },
+        {
+          "id": "2025-03-12-0002",
+          "content": "学习了Python的基本语法，包括变量定义、数据类型等",
+          "topic": "python",
+          "tags": [],
+          "created_at": "2025-03-11 21:28:10 PDT",
+          "updated_at": "2025-03-11 21:28:10 PDT"
+        }
+      ]
+    }
+  ],
+  "highlights": []
+}

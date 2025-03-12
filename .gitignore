@@ -19,4 +19,7 @@ temp_*.md
 
 # 系统文件
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# 本地讨论文件
+project_management/ideaguide.md 

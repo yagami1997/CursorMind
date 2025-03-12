@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# 检查时间戳格式的 pre-commit hook
+
+# 获取当前的太平洋时间戳格式
+CORRECT_FORMAT=$(python3 scripts/generate_timestamp.py full)
+TIMEZONE=$(echo $CORRECT_FORMAT | awk '{print $NF}')
+
+# 检查文档中的时间戳格式
+check_timestamps() {
+    local file="$1"
+    if grep -E "[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} (PST|PDT)" "$file" | grep -v "$TIMEZONE"; then
+        echo "错误: $file 中存在不正确的时区格式，请使用 scripts/generate_timestamp.py 生成时间戳"
+        return 1
+    fi
+    return 0
+}
+
+# 获取待提交的 Markdown 文件
+files=$(git diff --cached --name-only --diff-filter=ACM | grep "\.md$")
+
+# 检查每个文件
+for file in $files; do
+    if [ -f "$file" ]; then
+        if ! check_timestamps "$file"; then
+            exit 1
+        fi
+    fi
+done
+
+exit 0 

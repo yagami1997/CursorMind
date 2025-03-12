@@ -499,5 +499,20 @@ Join our vibrant community:
 
 Let's build better AI programming tools together!
 
+### 📜 MIT License
+
+CursorMind is released under the MIT License, which means:
+- ✅ You can freely use, modify, and distribute this software
+- ✅ You can use it for commercial projects
+- ✅ You can make and distribute closed source versions
+- ℹ️ The only requirement is to include the original copyright notice and license
+
+We encourage individuals and organizations to:
+- 🔄 Fork and modify the project for your specific needs
+- 🌱 Share your improvements back with the community
+- 🤝 Collaborate on making AI-assisted development more accessible
+
+For full license details, see the [LICENSE](LICENSE) file.
+
 ---
 *Last updated: 2025-03-12 02:37:42 PDT*

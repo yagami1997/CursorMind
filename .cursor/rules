@@ -7,7 +7,9 @@
   - Weekly: `project_management/actuals/reports/weekly/weekly_report_YYYYWNN.md` 
   - Decisions: `project_management/actuals/decisions/decision_DID.md`
 - Update `PROJECT_PROGRESS.md` for stakeholder-facing progress tracking
-- Always use `./scripts/timestamp.sh` to generate consistent timestamps
+- Always use `scripts/generate_timestamp.py` to generate consistent timestamps
+  - Supported formats: full, date, datetime, compact, week
+  - Never create or modify timestamps manually
 
 ## Code Development Standards
 - Implement complete, production-ready code with proper error handling
@@ -16,6 +18,7 @@
 - Ensure unit test coverage for all new functionality (minimum 85%)
 - Document public APIs with standardized docstrings
 - Review code for security vulnerabilities before submission
+- Never reference non-existent files, functions, or features
 
 ## Workflow Optimization
 - Use [CODE NOW] when analysis exceeds 5 minutes without concrete progress
@@ -24,6 +27,8 @@
 - Use [DECISION] marker to document important engineering choices
 - Follow "implement, test, refactor" development cycle
 - Commit frequently with descriptive, atomic changes
+- Avoid thought loops: prioritize execution over excessive analysis
+- When uncertain, ask directly instead of making assumptions
 
 ## Task Execution Guidelines
 - Define tasks with SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound)
@@ -32,6 +37,7 @@
 - Link tasks to specific project requirements or objectives
 - Document blockers and dependencies explicitly
 - Set clear completion deadlines for all tasks
+- Provide clear progress updates during long-running tasks
 
 ## Quality Assurance Practices
 - Conduct peer code reviews for all significant changes
@@ -40,3 +46,24 @@
 - Document edge cases and their handling mechanisms
 - Maintain backward compatibility unless explicitly specified otherwise
 - Create regression tests for all bug fixes
+
+## Documentation Integrity
+- README files must accurately reflect actual project functionality
+- Never add descriptions of unimplemented features
+- Verify functionality exists before updating documentation
+- When referencing code, specify exact file paths and line numbers
+- Maintain consistent version numbers across all documents
+
+## Memory and Context Management
+- Always reference current file contents before making changes
+- Review previous conversations to maintain context continuity
+- Keep track of project history and development decisions
+- Do not forget previous instructions or requirements
+- When context is unclear, review existing files before proceeding
+
+## Error Handling Protocol
+- Acknowledge errors immediately without justification
+- Correct mistakes based on actual project content
+- When fabrication is detected, reset and respond with verified information
+- Provide concise, accurate responses without unnecessary elaboration
+- Document error patterns to prevent recurrence

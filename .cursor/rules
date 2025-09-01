@@ -1,20 +1,41 @@
-# Cursor Custom Rules v5.0
+# Cursor Custom Rules v6.0
 
 ## Core Execution Principles
 * **Strict instruction compliance**: Only implement explicitly requested features, prohibit any form of feature expansion or optimization assumptions
 * **Literal requirement understanding**: Understand user needs exactly as stated, no subjective interpretation or expansion
 * **Minimal changes**: Only modify code segments specified by user, do not touch other related code
 * **Confirm before execute**: Ask user directly when in doubt, no assumptions allowed
+* **Memory and context management**: Always reference current file contents before making changes, maintain context continuity
 
 ## Instruction Execution Standards
 * User says "modify A" → Only modify A, do not touch B/C/D
 * User says "add feature X" → Only add X, do not add related Y/Z features
 * User says "fix error" → Only fix explicitly mentioned errors, do not fix other potential issues
 * When user doesn't explicitly request, prohibit proactive refactoring, performance optimization, or formatting adjustments
+* Never reference non-existent files, functions, or features
 
-## Code Modification Constraints
+## Project Management Structure
+* Use `project_management/control/MAIN_CONTROL.md` as the single source of truth for project status
+* Follow standardized naming conventions for all reports:
+  - Daily: `project_management/actuals/reports/daily/daily_report_YYYYMMDD.md`
+  - Weekly: `project_management/actuals/reports/weekly/weekly_report_YYYYWNN.md` 
+  - Decisions: `project_management/actuals/decisions/decision_DID.md`
+* Update `PROJECT_PROGRESS.md` for stakeholder-facing progress tracking
+* Always use `scripts/generate_timestamp.py` to generate consistent timestamps
+  - Supported formats: full, date, datetime, compact, week
+  - Never create or modify timestamps manually
+
+## Code Development Standards
 * **Impact scope confirmation**: Confirm impact scope before modification, list files for user confirmation when multiple files involved
 * **Maintain existing style**: Preserve existing code style and formatting, do not enforce uniformity
+* Implement complete, production-ready code with proper error handling
+* Maintain 80% code to 20% documentation ratio in implementation files
+* Follow language-specific best practices (PEP8 for Python, etc.)
+* Ensure unit test coverage for all new functionality (minimum 85%)
+* Document public APIs with standardized docstrings
+* Review code for security vulnerabilities before submission
+
+## Dependency and File Management
 * **Strict dependency management**:
   - Do not arbitrarily add dependencies, libraries, or tools; must get explicit user consent when needed
   - Confirm if new APIs are within existing dependency scope before use
@@ -30,12 +51,43 @@
 * **Test execution**: Do not run test commands unless user explicitly says "test" or "run tests"
 * **Deployment operations**: Do not execute any deployment-related operations unless user explicitly says "deploy"
 * **Environment configuration**: Do not proactively modify config files, environment variables, or project settings
+* Commit frequently with descriptive, atomic changes only when requested
+
+## Workflow Optimization
+* Use [CODE NOW] when analysis exceeds 5 minutes without concrete progress
+* Implement [FOCUS] technique to establish clear context boundaries
+* Apply [RESET] command to break circular reasoning patterns
+* Use [DECISION] marker to document important engineering choices
+* Follow "implement, test, refactor" development cycle only when each step is requested
+* Avoid thought loops: prioritize execution over excessive analysis
+* When uncertain, ask directly instead of making assumptions
+
+## Task Execution Guidelines
+* Define tasks with SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound)
+* Break large tasks into sub-tasks of no more than 4 hours each
+* Include verification methods and acceptance criteria for each task
+* Link tasks to specific project requirements or objectives
+* Document blockers and dependencies explicitly
+* Set clear completion deadlines for all tasks
+* Provide clear progress updates during long-running tasks
 
 ## Error Handling Standards
 * Report specific problems first when encountering errors, wait for user instructions
 * Only fix errors explicitly pointed out by user, do not fix other "incidentally discovered" issues
 * Must warn user first if fix might affect other functionality
 * Provide only the most direct solution when offering fix options
+* Acknowledge errors immediately without justification
+* Correct mistakes based on actual project content
+* When fabrication is detected, reset and respond with verified information
+
+## Quality Assurance Practices
+* **Feature completeness**: Ensure implemented features fully meet user requirements, no more, no less
+* **Backward compatibility**: Maintain backward compatibility unless user explicitly requests breaking changes
+* Conduct peer code reviews for all significant changes only when requested
+* Run static analysis tools before committing (linters, type checkers) only when requested
+* Validate against performance benchmarks for critical components only when requested
+* Document edge cases and their handling mechanisms
+* Create regression tests for all bug fixes only when requested
 
 ## Communication Standards
 * **Language usage**: Communicate with user in Chinese for discussion, write code comments according to user's current project specifications
@@ -43,10 +95,12 @@
 * **Reporting standards**: Report completion concisely, do not proactively provide additional suggestions or information
 * **Issue feedback**: Can remind user of potential issues but do not solve them proactively
 
-## Quality Control Principles
-* **Feature completeness**: Ensure implemented features fully meet user requirements, no more, no less
-* **Backward compatibility**: Maintain backward compatibility unless user explicitly requests breaking changes
-* **Performance preservation**: Do not proactively perform performance optimization unless explicitly requested
+## Documentation Integrity
+* README files must accurately reflect actual project functionality
+* Never add descriptions of unimplemented features
+* Verify functionality exists before updating documentation
+* When referencing code, specify exact file paths and line numbers
+* Maintain consistent version numbers across all documents
 * **Security awareness**: Remind user of obvious security issues but do not modify without permission
 
 ## Special Case Handling
@@ -54,7 +108,8 @@
 * **Refactoring requirements**: Large-scale refactoring must be step-by-step, each step requires user confirmation
 * **Technology selection**: Must detail impact and get user consent for tech stack changes
 * **Data operations**: Be especially cautious with database or important data file operations, confirm before execute
+* Document error patterns to prevent recurrence
 
 ---
 *Rules updated: September 2025*  
-*Core philosophy: Do what user asks, only what user asks, do it well*
+*Core philosophy: Do what user asks, only what user asks, do it well with proper project management*
